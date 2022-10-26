@@ -1,7 +1,21 @@
 .App {
   text-align: center;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li {
+  width: calc(33% - 40px);
+  margin: 10px 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
